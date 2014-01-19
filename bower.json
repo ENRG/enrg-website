@@ -1,0 +1,21 @@
+{
+  "name": "ENRG website",
+  "version": "1.0.0",
+  "authors": [
+    "John Fawcett <jrf0110@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.9.1",
+    "font-awesome": "~4.0.3",
+    "bootstrap": "~3.0.3"
+  }
+}

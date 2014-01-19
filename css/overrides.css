@@ -1,0 +1,20 @@
+/* Fix ENRG Logo for theme */
+.navbar > .container .navbar-brand {
+  padding: 0;
+  margin-top: 4px;
+}
+
+/* Hero Unit BG and nicer text readability for background */
+.crp-showcase {
+  background: url(/img/featured-area-bg-1.jpg);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* Make 2-col marketing section more `fluid` feeling */
+#nmt-col-1 {
+  padding-top: 50px;
+}
+
+#nmt-col-2 > img {
+  margin-top: -60px;
+}
