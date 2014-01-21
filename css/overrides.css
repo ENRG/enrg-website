@@ -18,6 +18,10 @@
     width: 180px;
     margin-top: 3px;
   }
+
+  .wrapper {
+    padding-top: 74px;
+  }
 }
 
 /* Hero Unit BG and nicer text readability for background */
