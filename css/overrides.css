@@ -4,17 +4,39 @@
   margin-top: 4px;
 }
 
+@media screen and (max-width: 520px) {
+  .navbar {
+    min-height: 35px;
+  }
+
+  .navbar-toggle {
+    margin-top: 8px;
+    margin-bottom: 7px;
+  }
+
+  .navbar > .container .navbar-brand > img {
+    width: 180px;
+    margin-top: 3px;
+  }
+}
+
 /* Hero Unit BG and nicer text readability for background */
 .crp-showcase {
   background: url(/img/featured-area-bg-1.jpg);
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
 }
 
-/* Make 2-col marketing section more `fluid` feeling */
-#nmt-col-1 {
-  padding-top: 50px;
+#nmt-col-2 {
+  text-align: center;
 }
 
-#nmt-col-2 > img {
-  margin-top: -60px;
+/* Make 2-col marketing section more `fluid` feeling */
+@media screen and (min-width: 769px) {
+  #nmt-col-1 {
+    padding-top: 50px;
+  }
+
+  #nmt-col-2 > img {
+    margin-top: -60px;
+  }
 }
