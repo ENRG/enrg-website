@@ -53,6 +53,10 @@
   box-shadow: inset 0 5px 8px rgba( 0, 0, 0, 0.2 );
 }
 
+.page-contact #contact-section {
+  margin-top: -50px;
+}
+
 #contact-section .form-contact {
   opacity: 0.8;
 }
