@@ -24,6 +24,12 @@
   }
 }
 
+@media screen and (max-width: 786px) {
+  .crp-ft {
+    width: 100%;
+  }
+}
+
 /* Hero Unit BG and nicer text readability for background */
 .crp-showcase {
   background: url(/img/featured-area-bg-1.jpg);
