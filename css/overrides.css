@@ -44,3 +44,44 @@
     margin-top: -60px;
   }
 }
+
+#contact-section {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background: url(/img/contact-us-bg.jpg);
+  background-size: cover;
+  box-shadow: inset 0 5px 8px rgba( 0, 0, 0, 0.2 );
+}
+
+#contact-section .form-contact {
+  opacity: 0.8;
+}
+
+#contact-section .contact-header,
+#contact-section .contact-header + p {
+  color: #fff;
+  text-shadow: 0 1px 1px rgba( 0, 0, 0, 0.5 );
+}
+
+#contact-section .contact-header {
+  font-size: 4em;
+}
+
+#contact-section .contact-header + p {
+  font-size: 1.4em;
+}
+
+@media screen and (max-width: 520px) {
+  #contact-section {
+    padding-top: 50px;
+    padding-bottom: 34px;
+  }
+
+  #contact-section .contact-header {
+    font-size: 2.2em;
+  }
+
+  #contact-section .contact-header + p {
+    font-size: 1.1em;
+  }
+}
