@@ -103,3 +103,8 @@
 .block-inverse {
   color: #7C8B8F;
 }
+
+.page-services .about-img > img {
+  width: 186px;
+  height: 186px;
+}
