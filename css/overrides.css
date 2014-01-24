@@ -28,6 +28,10 @@
   .crp-ft {
     width: 100%;
   }
+
+  .crp-ft .hidden {
+    visibility: visible!important;
+  }
 }
 
 /* Hero Unit BG and nicer text readability for background */
@@ -94,4 +98,8 @@
   #contact-section .contact-header + p {
     font-size: 1.1em;
   }
+}
+
+.block-inverse {
+  color: #7C8B8F;
 }
