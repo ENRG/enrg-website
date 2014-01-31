@@ -85,6 +85,10 @@
   font-size: 1.4em;
 }
 
+#contact-form .errors > .error {
+  margin-top: 12px;
+}
+
 @media screen and (max-width: 520px) {
   #contact-section {
     padding-top: 50px;
