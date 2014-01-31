@@ -108,3 +108,13 @@
   width: 186px;
   height: 186px;
 }
+
+@media screen and (max-width: 520px) {
+  .page-services .about-img {
+    display: none;
+  }
+
+  .page-services blockquote {
+    margin-left: 0;
+  }
+}
