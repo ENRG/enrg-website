@@ -81,18 +81,17 @@
           <!-- Contact Us form -->
           <div class="col-sm-6">
             <div class="form-white form-contact">
-              <form role="form">
+              <form role="form" id="contact-form">
+                <div class="errors"></div>
                 <div class="form-group">
                   <div class="row">
                     <div class="col-sm-6">
                       <label for="name-1">First name</label>
-                      <input type="text" class="form-control show" id="name-1" placeholder="Enter first name">
-                      <input type="text" class="form-control hidden" id="name-1-disabled" placeholder="Enter first name" value="Alex" disabled>
+                      <input type="text" name="first_name" class="form-control show" id="name-1" placeholder="Enter first name">
                     </div>
                     <div class="col-sm-6">
                       <label for="name-2" class="pull-right-xs">Last name</label>
-                      <input type="text" class="form-control show" id="name-2" placeholder="Enter last name">
-                      <input type="text" class="form-control hidden" id="name-2-disabled" placeholder="Enter last name" value="Smith" disabled>
+                      <input type="text" name="last_name" class="form-control show" id="name-2" placeholder="Enter last name">
                     </div>
                   </div>
                 </div>
@@ -100,14 +99,13 @@
                   <label for="email-contact">Email address
                     <span class="text-danger">*</span>
                   </label>
-                  <input type="email" class="form-control show" id="email-contact" placeholder="Enter email">
-                  <input type="email" class="form-control hidden" id="email-contact-disabled" placeholder="Enter email" value="user@mysite.com" disabled>
+                  <input type="email" name="email" class="form-control show" id="email-contact" placeholder="Enter email">
                 </div>
                 <div class="form-group">
                   <label for="message">Message
                     <span class="text-danger">*</span>
                   </label>
-                  <textarea id="message" class="form-control" rows="3" placeholder="Enter your message here"></textarea>
+                  <textarea id="message" name="message" class="form-control" rows="3" placeholder="Enter your message here"></textarea>
                 </div>
                 <button type="submit" class="btn btn-block btn-color btn-xxl">Submit</button>
               </form>
@@ -165,6 +163,13 @@
   <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
   <script src="js/scrolltopcontrol.js"></script>
+  <script src="js/contact-form.js"></script>
+  <script>
+    var contact;
+    $(function(){
+      contact = $('#contact-form').contactForm();
+    });
+  </script>
 
 </body>
 
