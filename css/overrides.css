@@ -4,6 +4,10 @@
   margin-top: 4px;
 }
 
+.crp-showcase {
+  padding-bottom: 160px;
+}
+
 @media screen and (max-width: 520px) {
   .navbar {
     min-height: 35px;
